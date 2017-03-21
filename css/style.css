@@ -1,0 +1,176 @@
+/*==========FONTS===========*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Satisfy');
+
+
+
+/*==========Universal===========*/
+
+.pull-right{
+    float:right;
+}
+
+.pull-left{
+    float:left;
+}
+
+.inline{
+    display:inline;
+}
+
+a {
+        text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+ 
+.active {
+    border-radius: 15px 50px;
+    background-color: #fff;
+    padding: 10px;
+}
+.active a {
+    color: #000;
+}
+
+h1 { 
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: : 1.5em;
+}
+
+ /*========HEADER SECTION=========*/
+ 
+ header {
+     background-color:#000;
+     height:70px;
+     padding: 0px 16px;
+ }
+ 
+ header a {
+     color: #ffff00;
+ }
+ 
+ h1 {
+     color: yellow;
+     text-align: center;
+     
+ }
+ 
+ 
+ header nav ul li {
+     margin-right: 15px;
+ }
+ 
+ /*===========HERO SECTION=======*/
+ #hero {
+     background-image: url('../img/hero.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 350px;
+ }
+ 
+ .title-style {
+     margin: 0;
+     text-align: center;
+     margin-top: 16%;
+     margin-left: 30%;
+     position: absolute;
+ }
+
+/*========ASIDE SECTION========*/
+.white-text {
+    color: #fff;
+}
+.centered {
+     text-align: center;   
+}
+
+aside {
+    width: 30%;
+    background-color: black;
+    height: 350px;
+    border: 2px solid #00f400;
+    float: left;
+}
+
+#blog-links {
+    padding-left: 0px;
+}
+
+.blog-link {
+    margin: 5px; /*I chose 5px and targeted the 
+    blog-link class with the intention that each link 
+    would takeon a margin of 5px for a total of 10px between the links*/
+    padding: 10px;
+    
+}
+
+.blog-link:hover a, .blog-link:hover {
+    background-color: #eeee77;
+    color: #000;
+}
+
+/*aside ul li a {*/
+aside a {
+    color:#fff;
+}
+
+ /*============MAIN SECTION==============*/
+ 
+ #main-heading {
+     font-weight: 800;
+     color: #000;
+ }
+ 
+ main {
+     float: right
+     width 69.5%;
+     height: 350px;
+     overflow: auto;
+ }
+ 
+ #main-paragraph {
+     padding: 10px 20px;
+     margin:0 auto;
+ }
+ p {
+     text-align: center;
+ }
+ 
+ /*main {
+    
+     
+ }*/
+ 
+ /*===========FOOTER SECTION=========*/
+ footer {
+     height: 55px;
+     background-color: #6678ff;
+     clear: both;
+     padding: 8px 0px;
+     
+ }
+ 
+.fa {
+    margin-left: 8px;
+    
+}
+
+footer #social-media a {
+    color: #000;
+}
+
+footer #social-media a:hover {
+    color: #fff;
+}
+
+#copyright {
+    text-align: right;
+    font-size: 10px;
+
+}
